@@ -22,9 +22,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bolsadeideas.springboot.app.models.entity.Cliente;
 import com.bolsadeideas.springboot.app.models.services.IClienteService;
 
-@CrossOrigin(origins = {"**"})
+
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = {"**"})
 public class ClienteRestController {
 	
 	@Autowired
