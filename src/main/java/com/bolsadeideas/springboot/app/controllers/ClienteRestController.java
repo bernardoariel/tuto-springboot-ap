@@ -17,13 +17,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bolsadeideas.springboot.app.models.entity.Cliente;
 import com.bolsadeideas.springboot.app.models.services.IClienteService;
 
-@CrossOrigin(origins = {"https://appbackendbernardo.herokuapp.com/"})
+@CrossOrigin(origins = {"https://frontend-173e4.web.app/"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
